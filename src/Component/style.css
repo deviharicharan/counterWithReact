@@ -1,0 +1,46 @@
+.btn-group button {
+  background-color: #ffffff;
+  border: 1.5px solid #a54946;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #a54946;
+}
+.btn-group {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input {
+  border: 1.5px solid #a54946;
+  padding: 10px 5px;
+  color: #a54946;
+  background-color: #f8e9e9;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+input:focus {
+  outline: none !important;
+}
+.btn-group .left {
+  font-weight: bold;
+  font-size: large;
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
+}
+.btn-group .right {
+  font-weight: bold;
+  font-size: large;
+  border-radius: 0px 5px 5px 0px;
+  border-left: none;
+}
+.btn-group button:hover {
+  background-color: rgba(165, 73, 70, 255);
+  color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
